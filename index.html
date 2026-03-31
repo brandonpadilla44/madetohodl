@@ -20,7 +20,7 @@
             padding: 40px 20px;
         }
         .logo {
-            max-width: 380px;
+            max-width: 420px;
             width: 90%;
             height: auto;
             margin: 0 auto 40px;
@@ -45,7 +45,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        .shop-link {
+        .shop-button {
             display: inline-block;
             background-color: #00ff9d;
             color: #000000;
@@ -55,13 +55,37 @@
             border-radius: 50px;
             text-decoration: none;
             transition: all 0.3s;
+            margin-bottom: 60px;
         }
-        .shop-link:hover {
+        .shop-button:hover {
             background-color: #ffffff;
             transform: scale(1.05);
         }
+        .market-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 80px;
+        }
+        .market-button {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            padding: 12px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            border: 2px solid #00ff9d;
+            min-width: 140px;
+        }
+        .market-button:hover {
+            background-color: #00ff9d;
+            color: #000000;
+            transform: scale(1.05);
+        }
         footer {
-            margin-top: 100px;
+            margin-top: 80px;
             color: #555;
             font-size: 0.95rem;
         }
@@ -73,17 +97,23 @@
 </head>
 <body>
     <div class="container">
-        <!-- Your logo will go here -->
         <img src="Asset 1M2H Logo V1.png" alt="MadeToHodl Logo" class="logo">
 
         <div class="coming-soon">COMING SOON</div>
-        <h1>MadeToHodl</h1>
-        <p class="tagline">Locking Up XRP through Merch<br>
+        <h1>MADE TO HODL</h1>
+        <p class="tagline">XRP locked with every purchase<br>
         Built by the Community • For the Community</p>
         
-        <a href="https://madetohodl.shop" class="shop-link">
-            SHOP DROPPING SOON
+        <a href="https://madetohodl.shop" class="shop-button">
+            SHOP COMING SOON
         </a>
+
+        <!-- New Buttons -->
+        <div class="market-buttons">
+            <a href="https://madetohodl.shop" class="market-button">CoinGecko</a>
+            <a href="https://madetohodl.shop" class="market-button">CoinMarketCap</a>
+            <a href="https://madetohodl.shop" class="market-button">X</a>
+        </div>
 
         <footer>
             © 2026 Made to HODL<br>
