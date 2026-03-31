@@ -64,28 +64,32 @@
         .market-buttons {
             display: flex;
             justify-content: center;
-            gap: 20px;
+            gap: 18px;
             flex-wrap: wrap;
-            margin-bottom: 80px;
         }
         .market-button {
-            background-color: #1a1a1a;
-            color: #ffffff;
-            padding: 12px 28px;
-            border-radius: 50px;
+            width: 52px;
+            height: 52px;
+            background-color: #00ff9d;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             text-decoration: none;
-            font-weight: 600;
             transition: all 0.3s;
-            border: 2px solid #00ff9d;
-            min-width: 140px;
+            box-shadow: 0 4px 12px rgba(0, 255, 157, 0.3);
         }
         .market-button:hover {
-            background-color: #00ff9d;
-            color: #000000;
-            transform: scale(1.05);
+            transform: scale(1.12);
+            box-shadow: 0 6px 18px rgba(0, 255, 157, 0.4);
+        }
+        .market-button svg {
+            width: 26px;
+            height: 26px;
+            fill: #000000;
         }
         footer {
-            margin-top: 80px;
+            margin-top: 100px;
             color: #555;
             font-size: 0.95rem;
         }
@@ -108,15 +112,15 @@
             SHOP COMING SOON
         </a>
 
-        <!-- Green Circular Icon Buttons -->
+        <!-- Small Green Circular Icon Buttons -->
         <div class="market-buttons">
             <a href="https://madetohodl.shop" class="market-button">
-                <!-- CoinGecko Icon (white gecko/coin) -->
+                <!-- CoinGecko Icon -->
                 <svg viewBox="0 0 24 24"><path d="M12 2L2 7v10l10 5 10-5V7L12 2z"/></svg>
             </a>
             <a href="https://madetohodl.shop" class="market-button">
-                <!-- CoinMarketCap Icon (white coin with M) -->
-                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#000" stroke="#fff" stroke-width="2"/><text x="12" y="16" font-size="10" text-anchor="middle" fill="#fff">M</text></svg>
+                <!-- CoinMarketCap Icon -->
+                <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10" fill="#000" stroke="#fff" stroke-width="2"/><text x="12" y="16" font-size="9" text-anchor="middle" fill="#fff">M</text></svg>
             </a>
             <a href="https://madetohodl.shop" class="market-button">
                 <!-- X Icon -->
