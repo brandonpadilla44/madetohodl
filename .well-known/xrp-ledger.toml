@@ -1,0 +1,8 @@
+# xrp-ledger.toml for madetohodl.com
+# MadeToHodl - XRPL Verified Account
+
+[[ACCOUNTS]]
+address = "rhMiqcHDRgKU6QEHxNiEFHma4ZsHTCTVo1"
+
+[METADATA]
+modified = "2026-03-30T21:30:00Z"
